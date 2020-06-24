@@ -1,3 +1,7 @@
+import random
+
+n = random.randint(0,13)
+
 def primary():
   #print("Keep it logically awesome.")
 
@@ -5,7 +9,8 @@ def primary():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[13])
+  print(quotes[n])
+
 
 if __name__== "__main__":
   primary()
